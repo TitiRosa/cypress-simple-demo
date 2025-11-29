@@ -1,2 +1,0 @@
-CI test file to trigger GitHub Actions
-Timestamp: 2025-11-29T22:49:00Z
