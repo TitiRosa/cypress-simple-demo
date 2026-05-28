@@ -40,7 +40,7 @@ describe('Login', () => {
     cy.get('.invalid_input').should('contain', 'E-mail inválido');
   });
 
-  it('Senha com menos de 6 dígitos', () => {
+  it('Deve exibir erro ao informar senha inválida', () => {
     LoginPage.fillEmail('teste@email.com');
     LoginPage.fillPassword('123');
     LoginPage.submit();
